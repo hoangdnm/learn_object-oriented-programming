@@ -53,10 +53,20 @@ khach_hang_list = [
 
 # Xuất thông tin cho từng khách
 
-for khach in khach_hang_list:
-    print(khach.xin_chao())
-    print(f"Số thứ tự của bạn là: {khach.stt}")
-    for key, value in khach.thong_tin().items():
-        print(f"|{key}: {value}|")
-    print("-" * 40)
+# for khach in khach_hang_list:
+#     print(khach.xin_chao())
+#     print(f"Số thứ tự của bạn là: {khach.stt}")
+#     for key, value in khach.thong_tin().items():
+#         print(f"|{key}: {value}|")
+#     print("-" * 40)
 
+# xuất thông tin cho khách hàng có số thứ tự là 1
+# for khach1 in khach_hang_list:
+#     if khach1.stt == 1:
+#         print(khach1.xin_chao())
+#         print(f"Số thứ tự của bạn là: {khach1.stt}")
+#         for key, value in khach1.thong_tin().items():
+#             print(f"|{key}: {value}|")
+#         print("-" * 40)
+        
+       
